@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daily Ericcise</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <script src="index.js"></script>
+  <style>
+    body {
+      font-family: 'Merriweather', serif;
+      margin: 0;
+      padding: 32px;
+      background: #ccc;
+    }
+
+    h2 {
+      color: #ccc;
+      font-size: 16px;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+
+    section {
+      margin: 0 auto;
+      width: 320px;
+      background: white;
+      padding: 32px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>your daily Ericcise is:</h2>
+    <h1><script>document.write(generate())</script></h1>
+  </section>
+</body>
+</html>
