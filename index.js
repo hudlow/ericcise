@@ -38,7 +38,7 @@ const muscle = [
   "elbow",
   "deltoid",
   "toe",
-  "pinkie",
+  "pinky",
   "finger",
   "thumb",
   "wrist",
